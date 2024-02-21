@@ -29,17 +29,16 @@
       "comparison": "exact",
       "timeout": 1,
       "points": 1
+    },
+    {
+      "name": "Test Favorite 2",
+      "setup": "",
+      "run": "python -m unittest tests/testFavorite2.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
     }
-    // ,
-    // {
-    //   "name": "Test Favorite 2",
-    //   "setup": "",
-    //   "run": "python -m unittest tests/testFavorite2.py",
-    //   "input": "",
-    //   "output": "",
-    //   "comparison": "exact",
-    //   "timeout": 1,
-    //   "points": 1
-    // }
   ]
 }
