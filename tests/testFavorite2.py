@@ -26,4 +26,4 @@ class testCases(unittest.TestCase):
 
     def testSingleDigit(self): 
 
-      self.assertTrue(not hasNumber, "There is a double digit number in this string, \nso the result of your regex should be False!")
+      self.assertTrue(bool(hasNumber)==False, "There is a double digit number in this string, \nso the result of your regex should be False!")
